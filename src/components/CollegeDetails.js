@@ -38,7 +38,7 @@ function CollegeDetails(props) {
         redirect: "follow",
       };
       const response = await fetch(
-        "http://35.247.134.225:8080/api/college_details",
+        "https://oneshotdb.herokuapp.com/api/college_details",
         requestOptions
       );
       const resJSON = await response.json();

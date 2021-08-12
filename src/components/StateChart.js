@@ -17,7 +17,7 @@ const StateChart = () => {
       };
 
       const res = await fetch(
-        "http://35.247.134.225:8080/api/colleges_by_state",
+        "https://oneshotdb.herokuapp.com/api/colleges_by_state",
         requestOptions
       );
       const jsonData = await res.json();

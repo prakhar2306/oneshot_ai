@@ -46,5 +46,13 @@
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakhar2306/oneshot_ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prakhar2306/oneshot_ai/issues"
+  },
+  "homepage": "https://github.com/prakhar2306/oneshot_ai#readme"
 }
