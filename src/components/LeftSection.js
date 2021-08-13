@@ -13,7 +13,7 @@ export default function LeftSection() {
         margin: "auto",
       }}
     >
-      <Card title="Grouping by States" className="chart-card">
+      <Card title="Grouping by States" className="chart-card" >
         <StateChart />
       </Card>
       <Card title="Grouping by Courses" className="chart-card">

@@ -46,6 +46,7 @@ export default function CollegeList(props) {
         onRow={(record) => ({
           onClick: () => onRowClick(record),
         })}
+
       />
     </Card>
   );
