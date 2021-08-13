@@ -28,7 +28,10 @@ const [show,setshow]=useState(true);
       }}
     >
  <div  className={show ? "" : "hide"} >
- hi
+<p> Hello  I am Prakhar Shukla,
+
+ With help of Mongo Database, Node.js and React I created some mock fake data with 100 colleges  and 100 students in each college.
+ The pie charts created with help of @nivo/pie here represent the percentage of courses and states.</p>
  </div>
       <Router>
         <CollegeList path="list/:type" />
